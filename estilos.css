@@ -1,0 +1,97 @@
+body{
+    background-color: wheat;
+}
+header{
+    width: 80vw;
+    height: 15vw;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center; 
+    margin: 5em;
+    padding: 1em;
+}
+#titulo-principal{
+    color: rgb(2, 24, 26);
+    font-size: 5em;
+    margin: 1em;
+}
+#logo-pata{
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+}
+#main-container{
+    width: 90vw;
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    padding: 2em;
+}
+p{
+    font-size: 2rem;
+}
+img{
+   border: 3px, solid, wheat;
+   width: 450px;
+}
+.img-logo{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+h2{
+    background-color: cadetblue;
+    color: aliceblue;
+    width: fit-content;
+    margin: 1em;
+    padding: 1em;
+}
+.listas{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 2rem;
+    color: blue;
+}
+.footer-container{
+    background-color: cadetblue;
+    width: 90vw;
+    height: 35vw;
+    margin: 3em;
+    padding: 1em;
+
+}
+#logos-container{
+    background-color: rgb(143, 142, 142);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.logos{
+    width: 30vw;
+    padding: 2em, 1em, 1em , 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.logos:hover{
+    background-color: rgb(245, 247, 247);
+    transition: 2s;
+}
+button{
+    background-color: rgb(132, 133, 131);
+    margin: 10px;
+    padding: 2px;
+    font-size: 2em;
+}
